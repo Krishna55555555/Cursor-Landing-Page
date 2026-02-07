@@ -1,104 +1,78 @@
-This project is a static HTML + CSS recreation of the Cursor marketing website.
-The goal was to replicate the layout, spacing, and visual style as closely as possible while keeping the implementation simple, readable, and framework-free.
+# Cursor Landing Page (Recreated)
 
-📄 Sections Recreated
+This project is a **static HTML + CSS recreation** of the Cursor marketing website.
+The goal is to closely match the **layout, spacing, typography, and visual style**
+of the original site while keeping the implementation simple, lightweight, and
+framework-free.
 
-The following sections were recreated based on the Cursor website design:
+---
 
-Navbar
+## 🚀 Sections Recreated
 
-Logo on the left
+The following sections were recreated based on the Cursor website:
 
-Center-aligned navigation links
+1. **Navbar**
+   - Logo aligned left
+   - Navigation links perfectly centered
+   - Sign in / Download actions aligned right
+   - True visual centering (not `space-between`)
 
-Sign in / Download actions on the right
+2. **Hero Section**
+   - Main headline and primary call-to-action
+   - Large background container
+   - Floating Cursor editor UI mock built using HTML + CSS
 
-True visual centering using absolute positioning (not space-between)
+3. **Trusted By**
+   - Company logo grid inside subtle dark cards
+   - Logos loaded via SVG file paths (no inline SVGs)
 
-Hero Section
+4. **Feature & Value Sections**
+   - “The new way to build software”
+   - Testimonial cards with quotes and authors
+   - Compact card sizing matching the original layout
 
-Main headline and primary CTA
+5. **Stay on the Frontier**
+   - Three feature cards
+   - Headline, description, and CTA links
+   - Media section anchored at the bottom of each card
 
-Large background container
+6. **Changelog Preview**
+   - Version badges
+   - Release dates
+   - Compact update cards
 
-Floating Cursor editor UI mock (HTML + CSS, no image dependency)
+7. **Recent Highlights**
+   - Left-aligned section label
+   - Right-aligned stacked post cards
+   - Metadata (category and date)
+   - “View more posts” CTA
 
-Trusted By Section
+8. **Join Us / About**
+   - Split layout (text on the left, image on the right)
+   - Large rounded container card
 
-Company logo grid inside subtle dark cards
+9. **Final Call-to-Action**
+   - Centered headline
+   - Primary download button
+   - Minimal, high-contrast design
 
-SVGs loaded via file paths (no inline SVGs)
+10. **Footer**
+    - Multi-column layout:
+      - Product
+      - Resources
+      - Company
+      - Legal
+      - Connect
+    - Bottom bar with copyright
+    - Status indicator and language/theme placeholders
 
-Feature / Value Sections
+---
 
-“The new way to build software”
+## 🎨 Fonts
 
-Testimonial cards with quotes and author info
+### Font Stack Used
 
-Compact card sizing matching the original layout
-
-Stay on the Frontier
-
-Three feature cards
-
-Title, description, CTA link
-
-Media area at the bottom of each card
-
-Changelog Preview
-
-Version badges
-
-Release dates
-
-Compact update cards
-
-Recent Highlights
-
-Left-aligned section label
-
-Right-aligned stacked blog cards
-
-Metadata (category + date)
-
-“View more posts” CTA
-
-Join Us / About Section
-
-Split layout (text on left, image on right)
-
-Large rounded container card
-
-Final CTA
-
-Centered headline
-
-Primary download button
-
-Minimal, high-contrast design
-
-Footer
-
-Multi-column link layout:
-
-Product
-
-Resources
-
-Company
-
-Legal
-
-Connect
-
-Bottom bar with copyright
-
-Status indicator
-
-Language/theme toggle placeholders
-
-🎨 Fonts Used
-Primary Font Stack
+```css
 font-family:
   system-ui,
   -apple-system,
@@ -107,4 +81,4 @@ font-family:
   "Helvetica Neue",
   Helvetica,
   Arial,
-  sans-serif;# Cursor-Landing-Page
+  sans-serif;
